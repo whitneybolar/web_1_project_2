@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "museo300"; src: url("fonts/museo300.tff") format("truetype");
+} 
+
+body{
+  background-image : url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true");
+}
+
+
+@media (min-width: 769px) {
+nav {
+   margin: 30px 0px 0px -50px; 
+  display: flex; 
+  justify-content: space-around;
+}
+
+.topleftcorner {
+ display: flex; 
+ width: 30%; 
+ justify-content: space-between;  
+ text-transform: uppercase;
+ font-size: 10px;
+ align-items: center; 
+ margin-right: 560px; 
+}
+
+.topleftcorner h4 {
+  font-family: 'museo300', sans-serif;
+  font-weight: 300px; 
+  opacity: 0.5; 
+  }  
+  
+.nessst { 
+margin-left: 40px;
+margin-top: 20px; 
+align-self: center;
+} 
+
+.toprightcorner {
+  align-self: center; 
+  margin-top: 40px;
+  width: 10%;
+}
+
+.toprightcorner img { 
+ position: relative;
+ left: 45px;
+ border-radius: 20%; 
+ width: 23px;
+ height: 23px; 
+}
+
+.toprightcorner p {
+font-size: 12px; 
+font-family: 'museo300', sans-serif;
+font-weight: 300px; 
+opacity: 0.3; 
+justify-content: space-between; 
+}
+  
+.main-box{ 
+    width: 85%;
+    height: 350px; 
+    background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/45099837_346673216103614_5979961357963886592_n.jpg?_nc_cat=108&_nc_ht=scontent-sea1-1.xx&oh=492a438e357f68186cd3559e40faa473&oe=5C43ED2F");
+    background-size: cover;
+    border: 10px solid white;
+    padding: 25px;
+    margin-left: 40px;
+    margin-top: 10px; 
+}
+
+.main-box 
+.left-arrow,
+.right-arrow {
+  width: 3%;
+  height: 8%;
+}
+
+.main-box .left-arrow {
+  position: relative; 
+  top: 150px;
+  left: -45px;
+}
+
+.main-box .right-arrow {
+  position: relative; 
+  top: 150px;
+  left: 1088px;
+}
+
+.lower-box {
+  width: 87.8%;
+  height: 50px; 
+  background-color: dimgrey;
+  position: absolute;
+  top: 505px;
+  margin-left: -25px;
+}
+
+.main-box .lower-box p {
+  color: white;
+  font-size: 25px;
+  display: flex; 
+  justify-content: flex-end; 
+  position: relative;
+  right: 35px; 
+  bottom: 15px;  
+}
+
+.middle-content h3 {
+ text-align: center;
+  padding: 20px; 
+  font-family: 'museo300', sans-serif;
+  font-weight: 300px; 
+}
+
+.middle-content img {
+  width: 21%;
+  height: 150px; 
+  margin: 10px;
+  position: relative;
+  left: 40px
+}
+
+.view-more {
+  width: 20%;
+  height: 30px; 
+  background-image: url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+position: relative;
+left: 485px;   
+background-color: #b3b3ac;
+background-blend-mode: multiply;
+}
+
+.view-more .button {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 5px; 
+  left: 80px;
+}
+  
+.view-more:hover {
+	background-color: #000;
+}
+
+.middle-upper-text {
+  display: flex; 
+  justify-content: center;
+  color: white; 
+  background-color: dimgrey;
+  margin-top: 25px;
+}
+
+.smaller-text {
+  margin-left: 5px; 
+  font-size: 8px;
+  position: relative; 
+  top: 15px;
+}
+
+.bird {
+  width: 26px;
+  height: 20px;
+  position: relative;
+  right: 15px;
+  top: 13px;
+}
+
+.left-footer {
+  font-family: 'museo300', sans-serif;
+  font-weight: 300px; 
+  margin-left: 0px; 
+  margin-top: -.1px; 
+  background-image:url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+  width: 100%; 
+  height: 15em; 
+  background-size: auto; 
+  background-color: #b3b3ac;
+  background-blend-mode: multiply;
+}
+
+.top-left-footer {
+ display: flex; 
+ width: 20%; 
+ justify-content: space-between;  
+ font-family: 'museo300', sans-serif;
+ font-weight: 300px; 
+ text-transform: uppercase;
+ font-size: 10px;
+ margin-left: -17.5em; 
+ margin-top: 30px;  
+}
+
+.top-left-footer img{
+  width: 35%;
+  height: 60px;
+}
+
+.top-left-footer h3 {
+  padding: 10px;
+}
+
+.left-bottom-footer {
+  position: relative;
+  top: 5.5em;
+  right: 45.7em;
+  width: 20%;
+}
+
+.left-bottom-footer h3 {
+  text-transform: capitalize;
+  font-size: auto; 
+  margin-bottom: -7px;
+}
+
+.left-bottom-footer p {
+  color: white;
+}
+
+.left-bottom-footer input {
+  width: 320px;
+  height: 20px
+}
+
+.middle-footer {
+  width: 30%;
+  position: absolute;
+  left: 500px;
+  top: 80.5em;
+  font-family: 'museo300', sans-serif;
+  font-weight: 300px; 
+}
+
+.middle-footer .read-more {
+ text-transform: uppercase;
+ font-size: 18px;
+}
+
+.right-footer img {
+  width: 77px;
+  height: 54px; 
+}
+
+.right-footer {
+  width: 30%;
+  position: relative;
+  left: 57em;
+ bottom: 15.2em; 
+  
+}
+  
+  .right-footer h3 {
+    font-family: 'museo300', sans-serif;
+    font-weight: 300px; 
+  }
+}
